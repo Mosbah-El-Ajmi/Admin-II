@@ -1,0 +1,13 @@
+WoodyToys/            # Répertoire principal du projet
+├── DNS/              # Répertoire pour le serveur de nom DNS
+│   ├── Config/       # Répertoire pour les fichiers de configuration DNS
+│   ├── Zones/        # Répertoire pour les zones DNS
+│   └── Logs/         # Répertoire pour les fichiers journaux DNS
+├── Web/              # Répertoire pour le serveur web
+│   ├── Config/       # Répertoire pour les fichiers de configuration du serveur web
+│   ├── Sites/        # Répertoire pour les sites web
+│   └── Logs/         # Répertoire pour les fichiers journaux du serveur web
+└── Database/         # Répertoire pour la base de données
+    ├── Config/       # Répertoire pour les fichiers de configuration de la base de données
+    ├── Data/         # Répertoire pour les données de la base de données
+    └── Logs/         # Répertoire pour les fichiers journaux de la base de données
