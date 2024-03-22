@@ -1,0 +1,15 @@
+; Zone file for l1.10.ephec-ti.be
+$TTL 86400
+@   IN  SOA     ns1.l1-10.ephec-ti.be. admin.l1-10.ephec-ti.be. (
+                    2024032101   ; Serial
+                    3600         ; Refresh
+                    1800         ; Retry
+                    604800       ; Expire
+                    86400 )      ; Minimum TTL
+
+; Name servers
+@   IN  NS      ns1.l1-10.ephec-ti.be.
+
+; A records
+ns1     IN  A   192.168.1.1
+www     IN  A   192.168.1.2
