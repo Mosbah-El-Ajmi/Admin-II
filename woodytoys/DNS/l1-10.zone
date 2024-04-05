@@ -12,5 +12,5 @@ $TTL 86400
 
 ; A records
 ns1     IN  A   54.37.10.244
-www     IN  CNAME 54.37.10.244
+www     IN  A   54.37.10.244
 
