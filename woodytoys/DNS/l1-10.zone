@@ -1,4 +1,4 @@
-; Zone file for l1.10.ephec-ti.be
+; Zone file for l1-10.ephec-ti.be
 $TTL 86400
 @   IN  SOA     ns1.l1-10.ephec-ti.be. admin.l1-10.ephec-ti.be. (
                     2024032101   ; Serial
@@ -11,6 +11,6 @@ $TTL 86400
 @   IN  NS      ns1.l1-10.ephec-ti.be.
 
 ; A records
-ns1     IN  A   192.168.1.1
-www     IN  CNAME www.l1-10.ephec-ti.be
+ns1     IN  A   54.37.10.244
+www     IN  CNAME 54.37.10.244
 
