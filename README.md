@@ -3,6 +3,6 @@ Groupe L1-10
 
 l1-10.ephec-ti.be
 
-Container DNS :
+Enregistrement DNS:
 
-docker run -d --name=dns -p 53:53/udp -p 53:53/tcp --mount type=bind,source=/home/woody/woodytoys/dns/named.conf,target=/etc/bind/named.conf --mount type=bind,source=/home/woody/woodytoys/dns/l1-10.zone,target=/etc/bind/l1-10.zone internetsystemsconsortium/bind9:9.18
+l1-10.ephec-ti.be. IN DS 14522 13 2 22486DEF519F43C6F3986423D4A83DA100FCE30269F78EACCD489635B5217D53
